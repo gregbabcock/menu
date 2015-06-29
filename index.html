@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Greg's Stuff</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/site.css" rel="stylesheet">
+<link rel="stylesheet" href="css/sm-core-css.css">
+<link rel="stylesheet" href="css/sm-simple.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.smartmenus.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('.sm').smartmenus({
+    showFunction: function($ul, complete) {
+      $ul.slideDown(250, complete);
+    },
+    hideFunction: function($ul, complete) {
+     $ul.slideUp(250, complete); 
+    }
+  });
+}); // end ready
+</script>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    Greg's Stuff <span class="amp">&amp;</span> Things
+  </header>
+  <div class="content">
+    <div class="main">
+     <!--   <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div> -->
+      <h1>Navigation Menu</h1>
+      <ul class="sm sm-simple">
+        <li><a href="#">Tutorial Sites</a>
+          <ul>
+            <li><a href="http://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+            <li><a href="http://www.htmldog.com/guides/css/" target="_blank">HTML Dog CSS Guide</a></li>
+            <li><a href="http://jqueryui.com/" target="_blank" target="_blank">JQuery UI</a></li>
+            <li><a href="http://www.missingmanuals.com/cds/jsjq3emm" target="_blank">JavaScript & JQuery Example Files</a></li>
+            <li><a href="http://www.pootlepress.com/2013/02/video-tutorial-a-beginners-guide-on-how-to-create-a-single-page-wordpress-website/" target="_blank">Single-Page Wordpress Design Help</a></li>
+            <li><a href="https://github.com/sawmac/js3e" target="_blank">JavaScript: The Missing Manuals on Github</a></li>
+            <li><a href="http://www.codecademy.com/" target="_blank">Code Cademy</a></li>
+			<li><a href="http://www.asp.net/web-pages" target="_blank">ASP.NET</a></li>
+			<li><a href="http://www.createjs.com/Home" target="_blank">CreateJS</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Repositories </a>
+          <ul>
+            <li><a href="https://github.com/gregbabcock" target="_blank">Greg's Github site</a></li>
+            <li><a href="https://openshift.redhat.com/app/login?then=%2Fapp%2Fconsole" target="_blank">OpenShift</a></li>
+            <li><a href="http://babcockwebsolutions.wordpress.com" target="_blank">WordPress</a></li>
+                <li><a href="https://bitbucket.org/account/signin/" target="_blank">BitBucket</a></li>
+				<li><a href="https://cloudinary.com/users/login" target="_blank">Cloudinary</a></li>
+				<li><a href="https://appharbor.com/" target="_blank">AppHarbor</a></li>
+				
+              </ul>
+            </li>
+            <li><a href="#">Software Downloads </a>
+              <ul>
+                <li><a href="https://www3.conestogac.on.ca/msdnaa/login.jsp?FromDepartment=conestoga_engit" target="_blank">Microsoft Software Downloads</a></li>
+                <li><a href="https://www3.conestogac.on.ca/webstore/login.jsp?action=signin" target="_blank">Connestoga Student Software Downloads</a></li>
+               </ul>
+            </li>
+            <li><a href="#">PayPal Sites </a>
+            <ul>
+            <li><a href="https://developer.paypal.com" target="_blank">PayPal Developer Site <em>(use your actual login details!!)</em></a></li>
+            <li><a href="https://www.sandbox.paypal.com" target="_blank">PayPal Sandbox Site</a></li>
+            </ul>
+			</li>
+                <li><a href="#">Rich's Links </a>
+              <ul>
+                <li><a href="http://rhildred.users.sourceforge.net" target="_blank">SourceForge: Course Materials & Details</a></li>
+                <li><a href="https://github.com/rhildred" target="_blank">Rich's Github site</a></li>
+               </ul>
+			   </li>
+                <li><a href="#">Conestoga Links </a>
+              <ul>
+                <li><a href="https://myconestoga.ca/cas/login?service=https%3A%2F%2Fmyconestoga.ca%2Fpaf%2Fauthorize" target="_blank">Student Portal, Outlook Mail, Network, eConestoga</a></li>
+                <li><a href="http://conestogastudents.com/" target="_blank">Health Benefits</a></li>
+               </ul>
+			   </li>
+                    <li><a href="#">Others </a>
+              <ul>
+                <li><a href="https://build.phonegap.com/people/sign_in" target="_blank">Adobe Phonegap Build</a></li>
+                <li><a href="http://localhost:8000/xampp/" target="_blank">xampp</a></li>
+				<li><a href="https://www.cloudflare.com/login" target="_blank">Cloudflare</a></li>
+				<li><a href="https://sendgrid.com/" target="_blank">SendGrid</a></li>
+				
+               </ul>
+			</li>
+			<li><a href="#">Email Accounts </a>
+              <ul>
+                <li><a href="https://www.icloud.com/" target="_blank">iCloud</a></li>
+                <li><a href="https://mail.google.com" target="_blank">GeeMail</a></li>
+               </ul>
+			</li>
+			<li><a href="#">Epic Network </a>
+              <ul>
+                <li><a href="http://epicnetwork.rocks/" target="_blank">Website</a></li>
+                <li><a href="https://epicnetwork.rocks/api/login" target="_blank">Promo Code</a></li>
+               </ul>
+			</li>
+			<li><a href="http://babcockwebsolutions.com/">Portfolio </a>
+          </ul>
+      </div>
+  </div>
+<footer>
+    <p>Greg Babcock</p>
+</footer>
+</div>
+</body>
+</html>
